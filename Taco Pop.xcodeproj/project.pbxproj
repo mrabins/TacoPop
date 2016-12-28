@@ -19,6 +19,9 @@
 		137CDD341E144F500051273E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137CDD331E144F500051273E /* DataService.swift */; };
 		137CDD371E1453230051273E /* TacoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137CDD351E1453230051273E /* TacoCell.swift */; };
 		137CDD381E1453230051273E /* TacoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 137CDD361E1453230051273E /* TacoCell.xib */; };
+		137CDD3A1E1459250051273E /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137CDD391E1459250051273E /* ReusableView.swift */; };
+		137CDD3C1E1459CB0051273E /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137CDD3B1E1459CB0051273E /* NibLoadableView.swift */; };
+		137CDD3E1E145A8B0051273E /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137CDD3D1E145A8B0051273E /* UICollectionView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		137CDD331E144F500051273E /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		137CDD351E1453230051273E /* TacoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TacoCell.swift; sourceTree = "<group>"; };
 		137CDD361E1453230051273E /* TacoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TacoCell.xib; sourceTree = "<group>"; };
+		137CDD391E1459250051273E /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		137CDD3B1E1459CB0051273E /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		137CDD3D1E145A8B0051273E /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				137CDD2D1E14488A0051273E /* DropShadow.swift */,
+				137CDD391E1459250051273E /* ReusableView.swift */,
+				137CDD3B1E1459CB0051273E /* NibLoadableView.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -158,6 +166,7 @@
 		137CDD2A1E1446040051273E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				137CDD3D1E145A8B0051273E /* UICollectionView+Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -269,7 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				137CDD371E1453230051273E /* TacoCell.swift in Sources */,
+				137CDD3A1E1459250051273E /* ReusableView.swift in Sources */,
 				137CDD061E1445B10051273E /* AppDelegate.swift in Sources */,
+				137CDD3C1E1459CB0051273E /* NibLoadableView.swift in Sources */,
+				137CDD3E1E145A8B0051273E /* UICollectionView+Ext.swift in Sources */,
 				137CDD2E1E14488A0051273E /* DropShadow.swift in Sources */,
 				137CDD2C1E1446740051273E /* MainViewController.swift in Sources */,
 				137CDD341E144F500051273E /* DataService.swift in Sources */,
