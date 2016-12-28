@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		137CDD061E1445B10051273E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137CDD051E1445B10051273E /* AppDelegate.swift */; };
+		137CDD081E1445B10051273E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137CDD071E1445B10051273E /* ViewController.swift */; };
+		137CDD0B1E1445B10051273E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137CDD091E1445B10051273E /* Main.storyboard */; };
+		137CDD0D1E1445B10051273E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137CDD0C1E1445B10051273E /* Assets.xcassets */; };
+		137CDD101E1445B10051273E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137CDD0E1E1445B10051273E /* LaunchScreen.storyboard */; };
+		137CDD1B1E1445B10051273E /* Taco_PopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137CDD1A1E1445B10051273E /* Taco_PopTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		137CDD171E1445B10051273E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 137CDCFA1E1445B00051273E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 137CDD011E1445B00051273E;
+			remoteInfo = "Taco Pop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		137CDD021E1445B10051273E /* Taco Pop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taco Pop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		137CDD051E1445B10051273E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		137CDD071E1445B10051273E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		137CDD0A1E1445B10051273E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		137CDD0C1E1445B10051273E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		137CDD0F1E1445B10051273E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		137CDD111E1445B10051273E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		137CDD161E1445B10051273E /* Taco PopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taco PopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		137CDD1A1E1445B10051273E /* Taco_PopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taco_PopTests.swift; sourceTree = "<group>"; };
+		137CDD1C1E1445B10051273E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		137CDCFF1E1445B00051273E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137CDD131E1445B10051273E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		137CDCF91E1445B00051273E = {
+			isa = PBXGroup;
+			children = (
+				137CDD041E1445B10051273E /* Taco Pop */,
+				137CDD191E1445B10051273E /* Taco PopTests */,
+				137CDD031E1445B10051273E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		137CDD031E1445B10051273E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				137CDD021E1445B10051273E /* Taco Pop.app */,
+				137CDD161E1445B10051273E /* Taco PopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		137CDD041E1445B10051273E /* Taco Pop */ = {
+			isa = PBXGroup;
+			children = (
+				137CDD051E1445B10051273E /* AppDelegate.swift */,
+				137CDD071E1445B10051273E /* ViewController.swift */,
+				137CDD091E1445B10051273E /* Main.storyboard */,
+				137CDD0C1E1445B10051273E /* Assets.xcassets */,
+				137CDD0E1E1445B10051273E /* LaunchScreen.storyboard */,
+				137CDD111E1445B10051273E /* Info.plist */,
+			);
+			path = "Taco Pop";
+			sourceTree = "<group>";
+		};
+		137CDD191E1445B10051273E /* Taco PopTests */ = {
+			isa = PBXGroup;
+			children = (
+				137CDD1A1E1445B10051273E /* Taco_PopTests.swift */,
+				137CDD1C1E1445B10051273E /* Info.plist */,
+			);
+			path = "Taco PopTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		137CDD011E1445B00051273E /* Taco Pop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 137CDD1F1E1445B10051273E /* Build configuration list for PBXNativeTarget "Taco Pop" */;
+			buildPhases = (
+				137CDCFE1E1445B00051273E /* Sources */,
+				137CDCFF1E1445B00051273E /* Frameworks */,
+				137CDD001E1445B00051273E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taco Pop";
+			productName = "Taco Pop";
+			productReference = 137CDD021E1445B10051273E /* Taco Pop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		137CDD151E1445B10051273E /* Taco PopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 137CDD221E1445B10051273E /* Build configuration list for PBXNativeTarget "Taco PopTests" */;
+			buildPhases = (
+				137CDD121E1445B10051273E /* Sources */,
+				137CDD131E1445B10051273E /* Frameworks */,
+				137CDD141E1445B10051273E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				137CDD181E1445B10051273E /* PBXTargetDependency */,
+			);
+			name = "Taco PopTests";
+			productName = "Taco PopTests";
+			productReference = 137CDD161E1445B10051273E /* Taco PopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		137CDCFA1E1445B00051273E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = self.edu;
+				TargetAttributes = {
+					137CDD011E1445B00051273E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RY4LKVN272;
+						ProvisioningStyle = Automatic;
+					};
+					137CDD151E1445B10051273E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RY4LKVN272;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 137CDD011E1445B00051273E;
+					};
+				};
+			};
+			buildConfigurationList = 137CDCFD1E1445B00051273E /* Build configuration list for PBXProject "Taco Pop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 137CDCF91E1445B00051273E;
+			productRefGroup = 137CDD031E1445B10051273E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				137CDD011E1445B00051273E /* Taco Pop */,
+				137CDD151E1445B10051273E /* Taco PopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		137CDD001E1445B00051273E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137CDD101E1445B10051273E /* LaunchScreen.storyboard in Resources */,
+				137CDD0D1E1445B10051273E /* Assets.xcassets in Resources */,
+				137CDD0B1E1445B10051273E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137CDD141E1445B10051273E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		137CDCFE1E1445B00051273E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137CDD081E1445B10051273E /* ViewController.swift in Sources */,
+				137CDD061E1445B10051273E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137CDD121E1445B10051273E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137CDD1B1E1445B10051273E /* Taco_PopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		137CDD181E1445B10051273E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 137CDD011E1445B00051273E /* Taco Pop */;
+			targetProxy = 137CDD171E1445B10051273E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		137CDD091E1445B10051273E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				137CDD0A1E1445B10051273E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		137CDD0E1E1445B10051273E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				137CDD0F1E1445B10051273E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		137CDD1D1E1445B10051273E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		137CDD1E1E1445B10051273E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		137CDD201E1445B10051273E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RY4LKVN272;
+				INFOPLIST_FILE = "Taco Pop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Taco-Pop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		137CDD211E1445B10051273E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RY4LKVN272;
+				INFOPLIST_FILE = "Taco Pop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Taco-Pop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		137CDD231E1445B10051273E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RY4LKVN272;
+				INFOPLIST_FILE = "Taco PopTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Taco-PopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taco Pop.app/Taco Pop";
+			};
+			name = Debug;
+		};
+		137CDD241E1445B10051273E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RY4LKVN272;
+				INFOPLIST_FILE = "Taco PopTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Taco-PopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taco Pop.app/Taco Pop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		137CDCFD1E1445B00051273E /* Build configuration list for PBXProject "Taco Pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137CDD1D1E1445B10051273E /* Debug */,
+				137CDD1E1E1445B10051273E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		137CDD1F1E1445B10051273E /* Build configuration list for PBXNativeTarget "Taco Pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137CDD201E1445B10051273E /* Debug */,
+				137CDD211E1445B10051273E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		137CDD221E1445B10051273E /* Build configuration list for PBXNativeTarget "Taco PopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137CDD231E1445B10051273E /* Debug */,
+				137CDD241E1445B10051273E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 137CDCFA1E1445B00051273E /* Project object */;
+}
