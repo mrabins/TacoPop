@@ -39,12 +39,27 @@
                                     <constraint firstItem="xTo-tZ-pgp" firstAttribute="centerY" secondItem="BII-Cg-uMF" secondAttribute="centerY" id="lqB-K0-nMb"/>
                                 </constraints>
                             </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="7Ub-79-Svf">
+                                <rect key="frame" x="10" y="100" width="355" height="547"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="iKb-zt-m1B">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="BII-Cg-uMF" secondAttribute="trailing" id="DPs-yt-Yqf"/>
                             <constraint firstItem="BII-Cg-uMF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="btv-Ql-FU0"/>
                             <constraint firstItem="BII-Cg-uMF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="efx-Nk-ziz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7Ub-79-Svf" secondAttribute="bottom" constant="20" id="gzF-fM-jAr"/>
+                            <constraint firstAttribute="trailing" secondItem="7Ub-79-Svf" secondAttribute="trailing" constant="10" id="h9l-Vz-mvK"/>
+                            <constraint firstItem="7Ub-79-Svf" firstAttribute="top" secondItem="BII-Cg-uMF" secondAttribute="bottom" constant="20" id="nCV-uT-ZXy"/>
+                            <constraint firstItem="7Ub-79-Svf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="ywg-hj-Q3n"/>
                         </constraints>
                     </view>
                     <connections>
